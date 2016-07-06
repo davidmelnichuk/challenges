@@ -1,0 +1,67 @@
+
+David@BrainTree MINGW64 ~
+$ cd desktop/git_practice/challenges
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges (master)
+$ ls -a
+./   .git/       accessibility/  img/     memory/  README.md   session.txt
+../  .gitignore  character/      LICENSE  pencil/  sentiment/
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges (master)
+$ cd character
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character (master)
+$ ls -a
+./  ../  css/  index.html  README.md
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character (master)
+$ echo $PATH
+/c/Users/David/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/David/bin:/c/ProgramData/Ora
+cle/Java/javapath:/c/Program Files/Microsoft Solver Foundation/3.0.2.10889/Plugins:/c/Python27:/c/Python27/Scripts:/c/WI
+NDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/Program Files (x86)/Mic
+rosoft SQL Server/100/Tools/Binn:/c/Program Files/Microsoft SQL Server/100/Tools/Binn:/c/Program Files/Microsoft SQL Ser
+ver/100/DTS/Binn:/c/Program Files (x86)/PharosSystems/Core:/c/WINDOWS/system32/config/systemprofile/.dnx/bin:/c/Program
+Files/Microsoft DNX/Dnvm:/c/Program Files (x86)/Windows Live/Shared:/cmd:/c/Users/David/AppData/Local/atom/bin:/c/Progra
+m Files (x86)/Microsoft VS Code/bin:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character (master)
+$ mkdir img
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character (master)
+$ ls -a
+./  ../  css/  img/  index.html  README.md
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character (master)
+$ cp ../.gitignore ./img
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character (master)
+$ cd img
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character/img (master)
+$ dir
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character/img (master)
+$ ls
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character/img (master)
+$ ls -a
+./  ../  .gitignore
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character/img (master)
+$ dir -a
+.  ..  .gitignore
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character/img (master)
+$ echo .gitignore
+.gitignore
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character/img (master)
+$ echo $.gitignore
+$.gitignore
+
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character/img (master)
+$ cat .gitignore
+.DS_Store
+node_modules
+David@BrainTree MINGW64 ~/desktop/git_practice/challenges/character/img (master)
+$
